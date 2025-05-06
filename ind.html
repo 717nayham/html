@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Death Group</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- صفحة الدخول -->
+    <div class="login-page" id="login-page">
+        <h1>Enter Password to Continue</h1>
+        <input type="password" id="password" placeholder="Enter Password">
+        <button onclick="checkPassword()">Enter</button>
+    </div>
+
+    <!-- صفحة الشات -->
+    <div class="chat-page" id="chat-page" style="display:none;">
+        <div class="chat-header">
+            <h1>Death Group</h1>
+        </div>
+        <div class="chat-box" id="chat-box"></div>
+        <input type="text" id="message-input" placeholder="Type your message..." />
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
